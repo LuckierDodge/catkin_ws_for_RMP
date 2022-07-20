@@ -227,7 +227,7 @@ add_dependencies(SmartCar ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_
 target_link_libraries(SmartCar
   ${catkin_LIBRARIES} 
   #"~/catkin_ws/src/RosCode/segwayrmp/lib/libgxctrl_arm64-v8a.so"
-  #${PROJECT_SOURCE_DIR}/lib/libctrl_arm64-v8a.so
-  ${PROJECT_SOURCE_DIR}/lib/libctrl_x86_64.so
+  ${PROJECT_SOURCE_DIR}/lib/libctrl_arm64-v8a.so
+  #${PROJECT_SOURCE_DIR}/lib/libctrl_x86_64.so
 )
 
